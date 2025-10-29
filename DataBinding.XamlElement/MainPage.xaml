@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="DataBinding.XamlElement.MainPage">
+    <Grid
+        RowDefinitions="Auto,*"
+        Padding="24"
+        RowSpacing="24">
+        <Grid
+            Grid.Row="0"
+            Grid.Column="0"
+            ColumnDefinitions="Auto,*"
+            ColumnSpacing="8">
+
+            <Label
+                Grid.Row="0"
+                Grid.Column="0"
+                Text="Escriba lo que piensa"
+                VerticalOptions="Center"/>
+            <Entry
+                Grid.Row="0"
+                Grid.Column="1"
+                BackgroundColor="LightGray"
+                TextChanged="Entry_TextChanged"
+                x:Name="TextEntry"/>
+
+        </Grid>
+        <VerticalStackLayout
+            Grid.Row="1"
+            Grid.Column="0">
+
+            <Label
+                Text="Esto es lo que escribiste:"
+                />
+            <Label
+                Text="Aquí se va a ver lo que escribiste"
+                HorizontalOptions="Center"
+                FontSize="Small"
+                FontAttributes="Italic"
+                x:Name="EnteredTextLabel"/>
+        </VerticalStackLayout>
+    </Grid>
+
+</ContentPage>

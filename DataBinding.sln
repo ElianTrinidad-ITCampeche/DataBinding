@@ -5,6 +5,8 @@ VisualStudioVersion = 17.14.36603.0 d17.14
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataBinding.DataObject", "DataBinding.DataObject\DataBinding.DataObject.csproj", "{65E89919-E08C-4FE7-A7A1-4AE1E56B2EFA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataBinding.XamlElement", "DataBinding.XamlElement\DataBinding.XamlElement.csproj", "{8CBB466A-98FE-44C0-A64A-E3D449F8E05A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,8 +15,13 @@ Global
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{65E89919-E08C-4FE7-A7A1-4AE1E56B2EFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{65E89919-E08C-4FE7-A7A1-4AE1E56B2EFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65E89919-E08C-4FE7-A7A1-4AE1E56B2EFA}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
 		{65E89919-E08C-4FE7-A7A1-4AE1E56B2EFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{65E89919-E08C-4FE7-A7A1-4AE1E56B2EFA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8CBB466A-98FE-44C0-A64A-E3D449F8E05A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CBB466A-98FE-44C0-A64A-E3D449F8E05A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CBB466A-98FE-44C0-A64A-E3D449F8E05A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CBB466A-98FE-44C0-A64A-E3D449F8E05A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
