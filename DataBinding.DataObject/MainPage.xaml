@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="DataBinding.DataObject.MainPage">
+    <Grid
+     Margin="16">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <VerticalStackLayout  
+            Margin="24"
+            Grid.Row="0"
+            Grid.Column="0">
+            <Label
+                Text="Conteo:"
+                FontSize="Medium"/>
+
+            <Border
+                Margin="0,24,0,36"
+                Stroke="Gray"
+                StrokeThickness="3">
+                <Label
+                    HorizontalOptions="Center"
+                    Margin="0,24"
+                    FontSize="Large"
+                    FontAttributes="Bold"
+                    Text="{Binding Path=Conteo}"/>
+            </Border>
+        </VerticalStackLayout>
+        
+        <HorizontalStackLayout
+            Grid.Row="1"
+            Grid.Column="0"
+            HorizontalOptions="Center"
+            Spacing="32">
+            
+            <Button
+                Text="Contar"
+                FontSize="Medium"
+                WidthRequest="130"
+                Clicked="OnContarButtonClicked"/>
+            
+            <Button
+                Text="Reiniciar"
+                FontSize="Medium"
+                WidthRequest="130"
+                Clicked="OnReiniciarButtonClicked"/>
+        </HorizontalStackLayout>
+    </Grid>
+
+</ContentPage>
