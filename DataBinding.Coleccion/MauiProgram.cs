@@ -1,6 +1,6 @@
 ﻿using Microsoft.Extensions.Logging;
 
-namespace DataBindingObject
+namespace DataBinding.Coleccion
 {
     public static class MauiProgram
     {

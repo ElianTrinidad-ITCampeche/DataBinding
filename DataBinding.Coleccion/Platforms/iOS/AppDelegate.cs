@@ -1,6 +1,6 @@
 ﻿using Foundation;
 
-namespace DataBindingObject
+namespace DataBinding.Coleccion
 {
     [Register("AppDelegate")]
     public class AppDelegate : MauiUIApplicationDelegate

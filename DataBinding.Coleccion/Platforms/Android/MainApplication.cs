@@ -1,7 +1,7 @@
 ﻿using Android.App;
 using Android.Runtime;
 
-namespace DataBindingObject
+namespace DataBinding.Coleccion
 {
     [Application]
     public class MainApplication : MauiApplication

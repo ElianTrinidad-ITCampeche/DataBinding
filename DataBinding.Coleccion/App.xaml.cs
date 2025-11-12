@@ -1,4 +1,4 @@
-﻿namespace DataBindingObject
+﻿namespace DataBinding.Coleccion
 {
     public partial class App : Application
     {
